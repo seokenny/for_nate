@@ -1,0 +1,163 @@
+* {
+	margin:unset;
+	padding:unset;
+	font-family:"Oswald";
+}
+
+#logo_banner {
+	width:100%;
+	height:225px;
+	background-color:white;
+	text-align:center;
+}
+
+.scottlogo {
+	height:225px;
+	width:225px;
+}
+
+/**NAVIGATION**/
+.navbar {
+	text-align:center;
+}
+
+.navbar li {
+	display:inline-block;
+	margin-left:10px;
+	margin-right:10px;
+	letter-spacing:4px;
+	cursor:pointer;
+	padding:5px;
+}
+
+.navbar li:hover {
+	background-color:#db646d;
+/*	background-color:#1419f0;*/
+	color:white;
+}
+
+.line_cut {
+	height:1px;
+	width:350px;
+	background-color:#ddd;
+	margin:auto;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.lc_top {
+	margin-top:unset;
+}
+
+/**ABOUT**/
+#about_tab {
+	width:100%;
+	height:500px;
+	text-align:center;
+	display:none;
+}
+
+.about_name {
+	margin-bottom:15px;
+}
+
+.about_pic {
+	width:300px;
+	height:auto;
+	margin-bottom:15px;
+}
+
+.about_para {
+	width:50%;
+	margin-left:25%;
+	margin-bottom:100px;
+}
+
+/**Photos**/
+#photo_tab {
+	width:100%;
+	height:500px;
+	background-color:white;
+	text-align:center;
+	display:none;
+}
+
+.photo_tile {
+	display:inline-block;
+	height:300px;
+	width:300px;
+	background-size:cover;
+	background-repeat:no-repeat;
+	margin:5px;
+	background-color:gray;
+}
+
+/*.photo_tile.pt1 {
+	background-image:url("../images/image1.jpeg");
+}
+
+.photo_tile.pt2 {
+	background-image:url("../images/image2.jpeg");
+}
+
+.photo_tile.pt3 {
+	background-image:url("../images/image3.jpeg");
+}
+
+.photo_tile.pt4 {
+	background-image:url("../images/image4.jpeg");
+}
+
+.photo_tile.pt5 {
+	background-image:url("../images/image5.jpeg");
+}
+
+.photo_tile.pt6 {
+	background-image:url("../images/image6.jpeg");
+}
+
+.photo_tile.pt7 {
+	background-image:url("../images/image7.jpeg");
+}
+
+.photo_tile.pt8 {
+	background-image:url("../images/image8.jpeg");
+}
+
+.photo_tile.pt9 {
+	background-image:url("../images/image9.jpeg");
+}*/
+
+.hover_black {
+	background-color:rgba(0,0,0,.7);
+	height:100%;
+	width:100%;
+}
+
+
+/**BOOKING**/
+#book_tab{
+	width:30%;
+	height:500px;
+	margin-left:35%;
+	display:none;
+}
+
+.contact_head {
+	margin:15px 0;
+	text-align:center;
+}
+
+label, textarea, input {
+	width:100%;
+}
+
+textarea {
+	height:100px;
+}
+
+.submit_button {
+	background-color:black;
+	border-radius:unset;
+	color:white;
+}

@@ -1,0 +1,20 @@
+$(document).ready(function(){
+	$(".nav_about").on('click',function(){
+		$("#book_tab").stop().fadeOut();
+		$("#photo_tab").stop().fadeOut(function(){
+			$("#about_tab").stop().fadeIn();
+		});
+	});
+	$(".nav_photo").on('click',function(){
+		$("#book_tab").stop().fadeOut();
+		$("#about_tab").stop().fadeOut(function(){
+			$("#photo_tab").stop().fadeIn();
+		});
+	});
+	$(".nav_book").on('click',function(){
+		$("#about_tab").stop().fadeOut()
+		$("#photo_tab").stop().fadeOut(function(){
+			$("#book_tab").stop().fadeIn();
+		});
+	});
+});
